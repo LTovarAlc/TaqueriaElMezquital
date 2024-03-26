@@ -1,0 +1,16 @@
+.header {
+    background-color: #ea1414;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s ease;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.small-header {
+    height: 20vh;
+}

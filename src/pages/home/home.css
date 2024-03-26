@@ -1,0 +1,10 @@
+.home{
+    width: 100%;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.resto{
+    height: 1000vh;
+    background-color: purple;
+}
