@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .circle {
@@ -27,14 +27,14 @@
 @keyframes adjust-header {
     to {
         background: #ea1414;
-        height: 150px;
+        height: 120px;
         border-radius: 0px;
     }
 }
 
 @keyframes adjust-circle {
     to {
-        height: 140px; /* Ajusta el tamaño del círculo según el tamaño del encabezado */
-        width: 140px;
+        height: 110px; /* Ajusta el tamaño del círculo según el tamaño del encabezado */
+        width: 110px;
     }
 }
