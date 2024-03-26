@@ -1,16 +1,40 @@
 .header {
     background-color: #ea1414;
-    height: 40vh;
+    height: 250px;
     width: 100%;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+    animation: adjust-header linear both;
+    animation-timeline: scroll();
+    animation-range: 0 250px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: height 0.5s ease;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
+    margin-bottom: 100px;
 }
 
-.small-header {
-    height: 20vh;
+.circle {
+    background-color: #fff;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    animation: adjust-circle linear both;
+    animation-timeline: scroll();
+    animation-range: 0 250px;
+}
+
+@keyframes adjust-header {
+    to {
+        background: #ea1414;
+        height: 150px;
+        border-radius: 0px;
+    }
+}
+
+@keyframes adjust-circle {
+    to {
+        height: 140px; /* Ajusta el tamaño del círculo según el tamaño del encabezado */
+        width: 140px;
+    }
 }

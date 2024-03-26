@@ -6,8 +6,9 @@ import Location from "./components/location/location"
 const Home = () => {
     return(
         <section className="home">
-            {/* <Header/> */}
+            <Header/>
             <Location/>
+            <section className="resto"></section>
         </section>
     )
 }
