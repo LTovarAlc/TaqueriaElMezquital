@@ -15,16 +15,6 @@ const Location = () => {
           </span>
         </div>
         <div>
-          <img src="../../../../../img/email.png" className="location__icon" />
-          <span className="location__item-icon">
-            TaqueriaElMezquital@gmail.com
-          </span>
-        </div>
-        <div>
-          <img src="../../../../../img/phone.png" className="location__icon" />
-          <span className="location__item-icon">+51 8111111111</span>
-        </div>
-        <div>
           <img
             src="../../../../../img/clock.png"
             className="location__icon"
