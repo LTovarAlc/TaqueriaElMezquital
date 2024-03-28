@@ -28,11 +28,11 @@
   background-color: #e5e5e5;
 }
 
-.input-container{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.input-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .form__group {
@@ -93,18 +93,24 @@
   transition: 0.2s;
 }
 
-.send__button-img{
-    height: 90%;
-    filter: invert(100%);
+.send__button-img {
+  height: 90%;
+  filter: invert(100%);
 }
 
-.send__button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    border: none;
-    background-color: #ea1414;
-    border-radius: 4px;
-    width: 15%;
+.send__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border: none;
+  background-color: #ea1414;
+  border-radius: 4px;
+  width: 15%;
+  cursor: pointer;
+}
+
+
+.send__button:hover{
+  background-color: #a10e0e;
 }
