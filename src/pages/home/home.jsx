@@ -3,6 +3,7 @@ import React from "react"
 import Header from "../../components/header/header"
 import Location from "./components/location/location"
 import Reviews from "./components/reviews/reviews"
+import Footer from "../../components/footer/footer"
 
 const Home = () => {
     return(
@@ -10,7 +11,7 @@ const Home = () => {
             <Header/>
             <Location/>
             <Reviews/>
-            <section className="resto"></section>
+            <Footer/>
         </section>
     )
 }

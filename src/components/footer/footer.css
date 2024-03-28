@@ -1,0 +1,17 @@
+.footer{
+    margin-top: 50px;
+    height: 20vh;
+    background-color: #ea1414;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.circle__footer{
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
