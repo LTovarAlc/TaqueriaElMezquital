@@ -11,9 +11,9 @@ const Home = () => {
     return(
         <section className="home">
             <Header/>
-            {/* <About/> */}
+            <About/>
             <Location/>
-            <Reviews/>
+            {/* <Reviews/> */}
             <Contact/>
             <Footer/>
         </section>
