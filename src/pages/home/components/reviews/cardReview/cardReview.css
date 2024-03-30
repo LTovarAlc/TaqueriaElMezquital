@@ -1,0 +1,14 @@
+.cardReview{
+    width: 93%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cardReview span{
+    color: #808080;
+    font-size: 15px;
+}

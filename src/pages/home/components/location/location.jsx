@@ -27,9 +27,9 @@ const Location = () => {
       <div className="map__container">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d898.3579357739337!2d-100.2497056242274!3d25.756299302803257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662eb45f979fae5%3A0x114ece91ece7fc6a!2sAntiguo%20Camino%20Al%20Mezquital%202204%2C%20Vicente%20Guerrero%202do%20Sector%2C%2066437%20San%20Nicol%C3%A1s%20de%20los%20Garza%2C%20N.L.!5e0!3m2!1ses!2smx!4v1711481152370!5m2!1ses!2smx"
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
           className="map"
         ></iframe>
       </div>
