@@ -9,9 +9,8 @@
     color: #fff;
 }
 
-.circle__footer{
-    background-color: #fff;
-    height: 100px;
-    width: 100px;
+.elmezquitalLogo__footer{
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
