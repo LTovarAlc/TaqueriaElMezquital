@@ -1,17 +1,21 @@
 .footer{
     margin-top: 50px;
     height: 20vh;
-    background-color: #ea1414;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    color: #fff;
-    padding: 50px 0px;
+    color: #000;
+    padding: 30px 0px;
+    gap: 20px;
 }
 
 .elmezquitalLogo__footer{
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
+    height: 80%;
+    width: auto;
+}
+
+.footer span{
+    font-weight: 500;
 }
