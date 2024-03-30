@@ -1,16 +1,9 @@
 .location{
-    width: 100%;
-    height: 40vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 50px;
-}
-
-.location h2{
-    font-size: 40px;
-    font-weight: 500;
+    align-items: center;
+    gap: 20px;
 }
 
 .location__icon{
@@ -40,8 +33,8 @@
 }
 
 .map__container{
-    width: 100%;
-    height: 55%;
+    width: 90%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,9 +42,32 @@
 
 .map{
     width: 90%;
-    height: 80%;
+    height: 60%;
 }
 
 .location__link:hover{
     text-decoration: underline;
+}
+
+.cardLocation{
+    background-color: #fff;
+    width: 95%;
+    height: 500px;
+    border-radius: 12px;
+    color: #000;
+    padding: 20px 2px;
+    box-shadow: 0px 5px 5px #3a3a3ab3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardLocation h3{
+    font-size: 23px;
+    width: 96%;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 5px #ea1414 solid;
+    font-weight: 500;
 }
